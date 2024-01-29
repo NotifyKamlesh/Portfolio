@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/8874c2743e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- -------------------header------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/Designer</p>
+                <h1>Hi,I'm <span>Kamlesh</span> from <br>Bangalore</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------about------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.png" style="opacity: 90%;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Kamlesh, a passionate and innovative Web Developer and 
+                        Graphic Designer dedicated to crafting unique and visually appealing digital experiences.
+                        With a keen eye for design aesthetics and a strong foundation in web development, I bring 
+                        creativity and technical expertise to every project. <br>As a Graphic Designer, I thrive on transforming
+                        concepts into compelling visual narratives. From branding and logo design to 
+                        multimedia presentations, I take pride in delivering visually striking designs that leave
+                        a lasting impression. My proficiency in design tools such as Adobe Creative Suite empowers
+                        me to bring concepts to life with precision and flair.
+                    </p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                         </div>
+
+                         <div class="tab-contents active-tab"  id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Interrior Design</span><br>3D Interior Modeling </li>
+                                <li><span>Poster Design</span><br>Social Media/Card Design</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-Current</span><br>Doing work as a Freelancer.</li>
+                                <li><span>2022-2023</span><br>I have done work as a Intern in JSpider.</li>
+                                <li><span>2021-2022</span><br>I have done so many project based on UI/UX as a freelancer.</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>I have complited my acadmic qualification with 60.3%.</li>
+                                <li><span>2016-2018</span><br>I have done my 12th in PCM specailisation with 60%.</li>
+                                <li><span>2018-2022</span><br>I have completed my Degree in Computer Science specailisation with 73%. </li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="tools">
+                            <div class="tools1">
+                                <ul class="WD">
+                                    <li><span>WebDevelopment</span></li>
+                                    <li>MySql/SQLyog/Workbench<br></li>
+                                    <li>SpringToolSuite4<br></li>
+                                    <li>VS code<br></li>
+                                    <li>Postman<br></li>
+                                    <li>Eclipse</li>
+                                    <li>Git/GitHub</li>                                
+                                </ul>
+                            </div>
+                            <div class="tools2">
+                                <ul class="GR">
+                                    <li><span>Graphics</span><br></li>                                
+                                    <li>Microsoft Paint</li>
+                                    <li>Illustrator</li>
+                                    <li>Photoshop</li>
+                                    <li>Snapseed</li>
+                                    <li>Canva</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>    
+                               
+                            
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------Services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="learn-more">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p class="original">I am excited to share that I have successfully completed numerous web development projects,
+                         showcasing my expertise in crafting robust and visually appealing online solutions. Throughout my journey, 
+                         I have demonstrated proficiency in key programming languages such as HTML, CSS, and JavaScript,developers bring creativity
+                    </p>
+                    <span class="dots">...</span>
+                    <p class="extra"> and technical expertise together to create visually appealing 
+                        and functional interfaces. Front-end developers focus on user interface design, ensuring an intuitive
+                        and engaging experience, while back-end developers manage server-side infrastructure, handling data 
+                        flow and ensuring seamless functionality.
+                    </p>  
+                    <input type="checkbox" id="btn3" />
+                    <label for="btn3"></label>   
+                </div>
+
+                <div class="learn-more">
+                    <i class="fa-solid fa-display"></i>
+                    <h2>Web/App Designer</h2>
+                    <p class="original">I am thrilled to share that my journey in the field of web and app design has been marked by a diverse portfolio of 
+                        successful projects. Having crafted a myriad of visually stunning and user-centric designs, I take pride in my ability 
+                        to transform concepts into engaging digital experiences.
+                    </p>
+                    <span class="dots">...</span>
+                    <p class="extra">In my design endeavors, I've honed my skills in user interface (UI) and user experience (UX) design, ensuring that each project
+                         not only looks aesthetically pleasing but also provides an intuitive and seamless interaction for users. I have experience working 
+                         with various design tools and platforms, allowing me to adapt to the unique requirements of each project.
+                    </p>  
+                    <input type="checkbox" id="btn4" />
+                    <label for="btn4"></label>
+                </div>
+
+                <div class="learn-more">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p class="original">I am delighted to share my extensive experience in UI/UX design, having successfully undertaken a multitude of 
+                        projects that emphasize not only aesthetic appeal but also a seamless and user-centric experience.My approach to UI design involves
+                        a meticulous attention to detail, where I strive to create visually engaging interfaces
+                    </p>     
+                    <span class="dots">...</span>
+                    <p class="extra"> that captivate users from the first glance.Simultaneously, my UX design philosophy revolves around understanding user
+                         behaviors and preferences, ensuring that each interaction is intuitive and enhances overall user satisfaction.
+                    </p>  
+                    <input type="checkbox" id="btn5" />
+                    <label for="btn5"></label>
+                </div>
+
+                <div class="read-more">
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Interior Designer</h2>
+                    <p class="original">I am excited to share my passion for interior design, cultivated through numerous projects where I've had the 
+                        opportunity to transform spaces into aesthetically pleasing and functional environments.With a keen eye for detail and a creative 
+                        approach, I've successfully conceptualized and
+                    </p>     
+                    <span class="dots">...</span>
+                    <p class="extra">executed various interior design projects,ranging from residential spaces to commercial establishments. My commitment 
+                        to understanding the unique needs and preferences of clients has been a driving force in delivering designs that not only meet 
+                        expectations but exceed them.
+                    </p>  
+                    <input type="checkbox" id="btn6" />
+                    <label for="btn6"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Delectus magni consequuntur beatae fugiat, odit aperiam modi.
+                            Magnam velit, nihil repudiandae 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>UI/UX Design </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Delectus magni consequuntur beatae fugiat, odit aperiam modi.
+                            Magnam velit, nihil repudiandae 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Interior Work</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Delectus magni consequuntur beatae fugiat, odit aperiam modi.
+                            Magnam velit, nihil repudiandae 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><i class="fa-solid fa-user"></i></i>Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> Email : notifykamlesh@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> Phone : 9576464666</p>
+                    <div class="socail-icons">
+                        <a href="https://www.linkedin.com/in/notifykamlesh/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/notifykamlesh"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/notifykamlesh"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="text" name="Email" placeholder="Enter Your Emmail" required>
+                        <textarea name="Message"  cols="60" rows="10"></textarea>
+                        <button type="submit" class="btn1" onclick="showAlert()">Submit</button>
+                    </form> 
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 made by Kamlesh, All rights reserved by Pixel Dexterity </p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
